@@ -1,0 +1,70 @@
+
+Test Case 1: Login Functionality (Bypassing Error Page)
+Objective: Verify that a user can successfully log in after the error page is displayed.
+
+Steps:
+1. Open the site homepage. (http://zero.webappsecurity.com/)
+2. Click on the "Signin" button
+3. Enter valid username in the "Login" field (example: username)
+4. Enter valid password in the "Password" field (example: password)
+5. Click the "Sign in" button
+6. When the error page appears, click the browser's "Back" button
+7. Verify: The user is logged in by checking for the "Settings" option in the top navigation menu.
+
+---
+
+Test Case 2: Transfer Funds Between Accounts
+Objective: Verify successful fund transfer.
+Prerequisites: User is logged in.
+
+Steps:
+1. Navigate to "Transfer Funds". (example: "Savings with avail. balance = $1548")
+2. Select valid "From" and "To" accounts. (example: "Credit Card with avail. balance = $-265")
+3. Enter the amount (example: $265) and description. (example: paying off credit card debt)
+4. Click "Continue" button.
+5. Click "Submit" button.
+6. Verify: A success message confirming the transfer appears.
+
+--
+
+Test Case 3: Pay Bills Functionality
+Objective: Verify successful bill payment.
+Prerequisites: User is logged in.
+
+Steps:
+1. Navigate to the "ONLINE BANKING" tab.
+2. Click on the "Pay Bills" link on the bottom part of the page.
+3. Select Payee (example: Sprint)
+4. Select Account (example: Savings)
+5. Enter Amount (example: 50)
+6. Enter date (example: 2025-07-15)
+7. Click on "Pay" button.
+8. Verify: A confirmation message appears.
+
+---
+
+Test Case 4:
+Objective: Verify transactions are filtered by date range.
+Prerequisites: User is logged in.
+
+Steps:
+1. Click on the "Checking Account Activity" link to open Account Activity tab.
+2. Click on "Find Transactions" sub-tab.
+3. Enter valid From Date and To Date. (example: 2011-01-01 to 2024-01-01)
+4. Click on the "Find" button. 
+5. Verify: Only transactions within the selected date range are displayed.
+
+---
+
+Test Case 5: Submit Feedback Through Contact Form
+Objective: Verify successful submission of the feedback form.
+Prerequisites: User is logged in.
+
+Steps:
+1. Navigate to the "FEEDBACK" tab
+2. Fill in "Your Name" field (example: Andjelka Lazic)
+3. Fill in "Your email address" field (example: andjelka.qa@example.com)
+4. Fill in "Subject" field (example: Suggestion for your site)
+5. Fill in "Type your questions here..." field (example: Improve login functionality.)
+6. Click on the "Send Message" button.
+7. Verify: A confirmation message appears.
